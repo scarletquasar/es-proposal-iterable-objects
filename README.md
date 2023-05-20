@@ -20,5 +20,7 @@ const obj = {
   b: 2
 }
 
-
+for (const entry of obj) {
+  console.log(`Key: ${entry[0]} | Value: ${entry[1]}`);
+}
 ```
