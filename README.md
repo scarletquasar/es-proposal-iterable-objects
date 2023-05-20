@@ -24,3 +24,7 @@ for (const entry of obj) {
   console.log(`Key: ${entry[0]} | Value: ${entry[1]}`);
 }
 ```
+
+## Motivation
+
+`Map` object is not used like the planned, the vast majority of javascript codebases only uses default objects (and makes operations using `Object.entries/keys/values` to deal with that data). The main reason is that `Map` api is not good to use, there is no support to use the spread operator in it and there is no way to create a new `Map` using an existing object (like `new Map({a: 1, b: 2})` - so, only slow/ugly ways to convert and use the data.
