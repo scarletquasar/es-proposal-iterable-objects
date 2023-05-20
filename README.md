@@ -1,4 +1,6 @@
 # es-proposal-iterable-objects
+> ⚠️ Deviant draft
+
 ## Synopsis
 With iterable objects, would be possible to easy iterate JavaScript default objects (`Object.prototype`) represented by `{}`. This change would be useful to avoid unnecessary casts and conversions between data (when trying to filter a `{a: 1, b: 2}` by value for example).
 
